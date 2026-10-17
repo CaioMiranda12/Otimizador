@@ -347,7 +347,42 @@
     /* ---------- Topo ---------- */
     function carregarExemplo() {
       if (editando !== -1) sairDaEdicao();
-      transacoes = [['Ana', 120, 'Bruno'], ['Bruno', 80, 'Carla'], ['Carla', 50, 'Ana'], ['Diego', 200, 'Ana'], ['Bruno', 35.5, 'Diego']];
+       transacoes = [
+  ['João Arthur', 14.41, 'Caio'],
+  ['João Arthur', 14.18, 'LuisH'],
+  ['LuisH', 4.07, 'Caio'],
+  ['Pedro', 4.07, 'Caio'],
+  ['LuisH', 8.00, 'Caio'],
+  ['Pedro', 5.67, 'LuisH'],
+  ['Caio', 5.67, 'LuisH'],
+  ['LuisH', 5.00, 'Caio'],
+  ['LuisH', 7.50, 'Samuel'],
+  ['LuisH', 28.59, 'João Arthur'],
+  ['Caio', 27.65, 'LuisH'],
+  ['LuisH', 7.20, 'Caio'],
+  ['Caio', 5.35, 'LuisH'],
+  ['Pedro', 7.87, 'LuisH'],
+  ['Caio', 7.87, 'LuisH'],
+  ['Edilson', 10.00, 'LuisH'],
+  ['LuisH', 10.00, 'Edilson'],
+  ['LuisH', 6.00, 'Caio'],
+  ['Pedro', 6.00, 'Caio'],
+  ['LuisH', 7.50, 'Caio'],
+  ['Caio', 5.50, 'LuisH'],
+  ['LuisH', 4.93, 'Caio'],
+  ['Pedro', 4.93, 'Caio'],
+  ['Caio', 4.51, 'LuisH'],
+  ['Pedro', 4.51, 'LuisH'],
+  ['Caio', 2.36, 'LuisH'],
+  ['João Arthur', 9.00, 'LuisH'],
+  ['Samuel', 19.30, 'LuisH'],
+  ['LuisH', 1.56, 'Caio'],
+  ['João Arthur', 15.99, 'Caio'],
+  ['Samuel', 5.56, 'Caio'],
+  ['Alisson', 4.84, 'Caio'],
+  ['Caio', 3.66, 'LuisH'],
+  ['Pedro', 3.66, 'LuisH']
+];
       render();
       aviso('Exemplo carregado.');
     }
